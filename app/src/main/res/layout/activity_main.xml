@@ -11,35 +11,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.useenator.androidHandlerexample.MainActivity">
 
-    <!--<EditText-->
-        <!--android:id="@+id/editText"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"/>-->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <!--<Button-->
-        <!--android:id="@+id/loading_button"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:onClick="downloadImage"-->
-        <!--android:text="Load"-->
-        <!--android:background="#ed966a"-->
-        <!--android:textColor="#ffffff"/>-->
+    <Button
+        android:id="@+id/loading_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="downloadImage"
+        android:text="Load"
+        android:background="#ed966a"
+        android:textColor="#ffffff"/>
 
-    <!--<LinearLayout-->
-        <!--android:id="@+id/loading_section"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="center_horizontal"-->
-        <!--android:orientation="vertical"-->
-        <!--android:visibility="gone">-->
+    <LinearLayout
+        android:id="@+id/loading_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
 
-        <!--<TextView-->
-            <!--android:id="@+id/loading_text_view"-->
-            <!--style="?android:attr/textAppearanceSmall"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:gravity="center"-->
-            <!--android:text="Loading..."/>-->
+        <TextView
+            android:id="@+id/loading_text_view"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Loading..."/>
 
         <ProgressBar
             android:id="@+id/download_progressBar"
@@ -50,12 +50,12 @@
             android:indeterminate="false"
             android:max="100"
             style="?android:attr/progressBarStyleHorizontal"/><!--style="?android:progressBarStyleSmall"-->
-    <!--</LinearLayout>-->
+    </LinearLayout>
 
-    <!--<ListView-->
-        <!--android:id="@+id/url_listview"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:entries="@array/list_url"/>-->
+    <ListView
+        android:id="@+id/url_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/list_url"/>
 
 </LinearLayout>
